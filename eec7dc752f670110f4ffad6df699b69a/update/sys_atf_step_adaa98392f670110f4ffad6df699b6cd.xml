@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Run Server Side Validation Script</description>
+        <display_name>Run Server Side Script</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>1</order>
+        <snapshot/>
+        <step_config display_value="Run Server Side Script">41de4a935332120028bc29cac2dc349a</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>Admin4</sys_created_by>
+        <sys_created_on>2022-05-19 07:50:05</sys_created_on>
+        <sys_id>adaa98392f670110f4ffad6df699b6cd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Run Server Side Script</sys_name>
+        <sys_package display_value="NPAE_FIN_ATF_APP" source="x_695288_npae_fin1">eec7dc752f670110f4ffad6df699b69a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NPAE_FIN_ATF_APP">eec7dc752f670110f4ffad6df699b69a</sys_scope>
+        <sys_update_name>sys_atf_step_adaa98392f670110f4ffad6df699b6cd</sys_update_name>
+        <sys_updated_by>Admin4</sys_updated_by>
+        <sys_updated_on>2022-05-19 08:17:13</sys_updated_on>
+        <table/>
+        <test display_value="NPAE_FIN_ATF_CICD_Test1">d86ad4392f670110f4ffad6df699b662</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=adaa98392f670110f4ffad6df699b6cd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>adaa98392f670110f4ffad6df699b6cd</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Admin4</sys_created_by>
+        <sys_created_on>2022-05-19 07:50:06</sys_created_on>
+        <sys_id>0bfadc392f670110f4ffad6df699b62c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Admin4</sys_updated_by>
+        <sys_updated_on>2022-05-19 08:17:14</sys_updated_on>
+        <value>(function(outputs, steps, stepResult, assertEqual) {&#13;
+    // add test script here&#13;
+	var atfResult = gs.getProperty('x_695288_npae_fin1.npae_fin_test.result.atf');&#13;
+	if (atfResult == "1") {&#13;
+		// システムプロパティ[x_695288_npae_fin1.npae_fin_test.result.atf]が"1"の場合、Trueを返す&#13;
+		stepResult.setOutputMessage('ATF OK!');&#13;
+		return true;&#13;
+	} else {&#13;
+		// システムプロパティ[x_695288_npae_fin1.npae_fin_test.result.atf]が"1"以外の場合、Falseを返す（ATFの結果をエラーとする）&#13;
+		stepResult.setOutputMessage('ATF NG!');&#13;
+		return false;&#13;
+	}&#13;
+})(outputs, steps, stepResult, assertEqual);</value>
+        <variable display_value="Test script">989d9e235324220002c6435723dc3484</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>adaa98392f670110f4ffad6df699b6cd</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Admin4</sys_created_by>
+        <sys_created_on>2022-05-19 07:50:06</sys_created_on>
+        <sys_id>cffadc392f670110f4ffad6df699b62b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Admin4</sys_updated_by>
+        <sys_updated_on>2022-05-19 07:50:06</sys_updated_on>
+        <value>3.1</value>
+        <variable display_value="Jasmine version">42f2564b73031300440211d8faf6a777</variable>
+    </sys_variable_value>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="NPAE_FIN_CICD Test" language="en" table="x_695288_npae_fin1_npae_fin_cicd_test">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>NPAE_FIN_CICD Test</label>
+            <language>en</language>
+            <name>x_695288_npae_fin1_npae_fin_cicd_test</name>
+            <plural>NPAE_FIN_CICD Tests</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Admin4</sys_created_by>
+            <sys_created_on>2022-05-19 07:38:47</sys_created_on>
+            <sys_id>55681cb52f670110f4ffad6df699b652</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>NPAE_FIN_CICD Test</sys_name>
+            <sys_package display_value="NPAE_FIN_ATF_APP" source="x_695288_npae_fin1">eec7dc752f670110f4ffad6df699b69a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NPAE_FIN_ATF_APP">eec7dc752f670110f4ffad6df699b69a</sys_scope>
+            <sys_update_name>sys_documentation_x_695288_npae_fin1_npae_fin_cicd_test__en</sys_update_name>
+            <sys_updated_by>Admin4</sys_updated_by>
+            <sys_updated_on>2022-05-19 07:38:47</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="NPAE_FIN_CICD Test" max_length="40" name="x_695288_npae_fin1_npae_fin_cicd_test" sizeclass="0" type="collection"/>
+</database>

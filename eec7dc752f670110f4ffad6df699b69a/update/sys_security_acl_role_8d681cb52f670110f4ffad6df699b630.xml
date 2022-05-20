@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>Admin4</sys_created_by>
+        <sys_created_on>2022-05-19 07:38:46</sys_created_on>
+        <sys_id>8d681cb52f670110f4ffad6df699b630</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_695288_npae_fin1_npae_fin_cicd_test.x_695288_npae_fin1.npae_fin_cicd_test_user</sys_name>
+        <sys_package display_value="NPAE_FIN_ATF_APP" source="x_695288_npae_fin1">eec7dc752f670110f4ffad6df699b69a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NPAE_FIN_ATF_APP">eec7dc752f670110f4ffad6df699b69a</sys_scope>
+        <sys_security_acl display_value="x_695288_npae_fin1_npae_fin_cicd_test">3468d8b52f670110f4ffad6df699b6fb</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_8d681cb52f670110f4ffad6df699b630</sys_update_name>
+        <sys_updated_by>Admin4</sys_updated_by>
+        <sys_updated_on>2022-05-19 07:38:46</sys_updated_on>
+        <sys_user_role display_value="x_695288_npae_fin1.npae_fin_cicd_test_user" name="x_695288_npae_fin1.npae_fin_cicd_test_user">38689c752f670110f4ffad6df699b60c</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
